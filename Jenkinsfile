@@ -10,7 +10,7 @@ pipeline{
             steps {
                 sh "rm -rf /media/project1/*"
                 sh "chmod -R 777 /media/project1/new-app"
-                sh "cp /media/project1/new-app/index.html /var/www/html"
+                sh "cp /media/project1/new-app/index.html "
             }
         }
     }
